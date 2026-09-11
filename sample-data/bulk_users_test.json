@@ -1,0 +1,8 @@
+{
+  "users": [
+    { "name": "Ana Paredes", "email": "ana.paredes@test.com","password":"supersecreto123456" },
+    { "name": "Pedro sanchez", "email": "psanchez@test.com","password":"supersecreto123456"  },
+    { "name": "Joaquin Sosa", "email": "jsosa@test.com","password":"supersecreto123456"  },
+    { "name": "Carlos Alcaraz", "email": "calcaraz@test.com","password":"supersecreto123456"  }
+  ]
+}
