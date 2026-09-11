@@ -1,11 +1,10 @@
 # API de Usuarios, Direcciones y Divisas
 
-API REST en .NET 10 con Minimal API, EF Core, SQLite, CQRS, FluentValidation, API Key y Swagger.
+API REST con Minimal API, EF Core, SQLite, CQRS, FluentValidation, API Key y Swagger.
 
 ## Requisitos y ejecución
 
 - .NET SDK 10.0
-- Visual Studio 2026 o `dotnet` CLI
 
 ```powershell
 dotnet restore
@@ -22,7 +21,7 @@ Todos los endpoints requieren el header:
 X-API-KEY: dev-api-key
 ```
 
-La clave se configura en `ApiKey` dentro de `appsettings.json`; debe cambiarse en entornos reales. Sin la cabecera o con una clave incorrecta se devuelve `401 Unauthorized`.
+La clave se configura en `ApiKey` dentro de `appsettings.json`. Sin la cabecera o con una clave incorrecta se devuelve `401 Unauthorized`.
 
 Swagger está disponible en `/swagger` y también requiere la API Key para acceder.
 
